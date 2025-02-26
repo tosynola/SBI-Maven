@@ -19,6 +19,20 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+   <distributionManagement> 
+		<repository>
+			<id>nexus</id>
+			<name>SBI Releases Nexus Repo</name>
+			<url>http://3.92.27.54:8081/repository/Release/</url>
+		</repository>
+		
+		<snapshotRepository>
+			<id>nexus</id>
+			<name>SBI Snapshots Nexus Repo</name>
+			<url>http://3.92.27.54:8081/repository/SNAPSHOT/</url>
+		</snapshotRepository>	
+  </distributionManagement>
+
   <build>
     <finalName>SBI</finalName>
   </build>
