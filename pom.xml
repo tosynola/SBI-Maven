@@ -8,8 +8,8 @@
   <name>SBI Maven Webapp</name>
   <url>http://maven.apache.org</url>
    <properties>
-          <sonar.host.url>http://3.89.195.204:9000/</sonar.host.url>
-        <sonar.login>25001a5fe6e516ffd44695ebfcbfd1510c9f5cfc</sonar.login>
+          <sonar.host.url>http://54.227.3.42:9000/</sonar.host.url>
+        <sonar.login>4edf74c500cf12fb15e54a6e5914c39e8193583e</sonar.login>
   </properties>
   <dependencies>
     <dependency>
